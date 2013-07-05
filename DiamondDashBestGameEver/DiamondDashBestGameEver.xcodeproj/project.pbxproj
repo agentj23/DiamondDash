@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4420B7A1786B5C8002EA6E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4420B791786B5C8002EA6E4 /* UIKit.framework */; };
+		A4420B7C1786B5C8002EA6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4420B7B1786B5C8002EA6E4 /* Foundation.framework */; };
+		A4420B7E1786B5C8002EA6E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4420B7D1786B5C8002EA6E4 /* CoreGraphics.framework */; };
+		A4420B841786B5C8002EA6E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4420B821786B5C8002EA6E4 /* InfoPlist.strings */; };
+		A4420B861786B5C8002EA6E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4420B851786B5C8002EA6E4 /* main.m */; };
+		A4420B8A1786B5C8002EA6E4 /* DiamondDashAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4420B891786B5C8002EA6E4 /* DiamondDashAppDelegate.m */; };
+		A4420B8C1786B5C8002EA6E4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A4420B8B1786B5C8002EA6E4 /* Default.png */; };
+		A4420B8E1786B5C8002EA6E4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4420B8D1786B5C8002EA6E4 /* Default@2x.png */; };
+		A4420B901786B5C8002EA6E4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4420B8F1786B5C8002EA6E4 /* Default-568h@2x.png */; };
+		A4420B931786B5C8002EA6E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4420B911786B5C8002EA6E4 /* MainStoryboard.storyboard */; };
+		A4420B961786B5C8002EA6E4 /* DiamondDashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4420B951786B5C8002EA6E4 /* DiamondDashViewController.m */; };
+		A4420B9E1786B5C8002EA6E4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4420B9D1786B5C8002EA6E4 /* SenTestingKit.framework */; };
+		A4420B9F1786B5C8002EA6E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4420B791786B5C8002EA6E4 /* UIKit.framework */; };
+		A4420BA01786B5C8002EA6E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4420B7B1786B5C8002EA6E4 /* Foundation.framework */; };
+		A4420BA81786B5C8002EA6E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4420BA61786B5C8002EA6E4 /* InfoPlist.strings */; };
+		A4420BAB1786B5C9002EA6E4 /* DiamondDashBestGameEverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4420BAA1786B5C9002EA6E4 /* DiamondDashBestGameEverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4420BA11786B5C8002EA6E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4420B6E1786B5C8002EA6E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4420B751786B5C8002EA6E4;
+			remoteInfo = DiamondDashBestGameEver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4420B761786B5C8002EA6E4 /* DiamondDashBestGameEver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiamondDashBestGameEver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4420B791786B5C8002EA6E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4420B7B1786B5C8002EA6E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4420B7D1786B5C8002EA6E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4420B811786B5C8002EA6E4 /* DiamondDashBestGameEver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiamondDashBestGameEver-Info.plist"; sourceTree = "<group>"; };
+		A4420B831786B5C8002EA6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4420B851786B5C8002EA6E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4420B871786B5C8002EA6E4 /* DiamondDashBestGameEver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DiamondDashBestGameEver-Prefix.pch"; sourceTree = "<group>"; };
+		A4420B881786B5C8002EA6E4 /* DiamondDashAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiamondDashAppDelegate.h; sourceTree = "<group>"; };
+		A4420B891786B5C8002EA6E4 /* DiamondDashAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiamondDashAppDelegate.m; sourceTree = "<group>"; };
+		A4420B8B1786B5C8002EA6E4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A4420B8D1786B5C8002EA6E4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A4420B8F1786B5C8002EA6E4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A4420B921786B5C8002EA6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A4420B941786B5C8002EA6E4 /* DiamondDashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiamondDashViewController.h; sourceTree = "<group>"; };
+		A4420B951786B5C8002EA6E4 /* DiamondDashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiamondDashViewController.m; sourceTree = "<group>"; };
+		A4420B9C1786B5C8002EA6E4 /* DiamondDashBestGameEverTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiamondDashBestGameEverTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4420B9D1786B5C8002EA6E4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A4420BA51786B5C8002EA6E4 /* DiamondDashBestGameEverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiamondDashBestGameEverTests-Info.plist"; sourceTree = "<group>"; };
+		A4420BA71786B5C8002EA6E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4420BA91786B5C8002EA6E4 /* DiamondDashBestGameEverTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiamondDashBestGameEverTests.h; sourceTree = "<group>"; };
+		A4420BAA1786B5C9002EA6E4 /* DiamondDashBestGameEverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiamondDashBestGameEverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4420B731786B5C8002EA6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4420B7A1786B5C8002EA6E4 /* UIKit.framework in Frameworks */,
+				A4420B7C1786B5C8002EA6E4 /* Foundation.framework in Frameworks */,
+				A4420B7E1786B5C8002EA6E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4420B981786B5C8002EA6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4420B9E1786B5C8002EA6E4 /* SenTestingKit.framework in Frameworks */,
+				A4420B9F1786B5C8002EA6E4 /* UIKit.framework in Frameworks */,
+				A4420BA01786B5C8002EA6E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4420B6D1786B5C8002EA6E4 = {
+			isa = PBXGroup;
+			children = (
+				A4420B7F1786B5C8002EA6E4 /* DiamondDashBestGameEver */,
+				A4420BA31786B5C8002EA6E4 /* DiamondDashBestGameEverTests */,
+				A4420B781786B5C8002EA6E4 /* Frameworks */,
+				A4420B771786B5C8002EA6E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4420B771786B5C8002EA6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4420B761786B5C8002EA6E4 /* DiamondDashBestGameEver.app */,
+				A4420B9C1786B5C8002EA6E4 /* DiamondDashBestGameEverTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4420B781786B5C8002EA6E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4420B791786B5C8002EA6E4 /* UIKit.framework */,
+				A4420B7B1786B5C8002EA6E4 /* Foundation.framework */,
+				A4420B7D1786B5C8002EA6E4 /* CoreGraphics.framework */,
+				A4420B9D1786B5C8002EA6E4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4420B7F1786B5C8002EA6E4 /* DiamondDashBestGameEver */ = {
+			isa = PBXGroup;
+			children = (
+				A4420B881786B5C8002EA6E4 /* DiamondDashAppDelegate.h */,
+				A4420B891786B5C8002EA6E4 /* DiamondDashAppDelegate.m */,
+				A4420B911786B5C8002EA6E4 /* MainStoryboard.storyboard */,
+				A4420B941786B5C8002EA6E4 /* DiamondDashViewController.h */,
+				A4420B951786B5C8002EA6E4 /* DiamondDashViewController.m */,
+				A4420B801786B5C8002EA6E4 /* Supporting Files */,
+			);
+			path = DiamondDashBestGameEver;
+			sourceTree = "<group>";
+		};
+		A4420B801786B5C8002EA6E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4420B811786B5C8002EA6E4 /* DiamondDashBestGameEver-Info.plist */,
+				A4420B821786B5C8002EA6E4 /* InfoPlist.strings */,
+				A4420B851786B5C8002EA6E4 /* main.m */,
+				A4420B871786B5C8002EA6E4 /* DiamondDashBestGameEver-Prefix.pch */,
+				A4420B8B1786B5C8002EA6E4 /* Default.png */,
+				A4420B8D1786B5C8002EA6E4 /* Default@2x.png */,
+				A4420B8F1786B5C8002EA6E4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4420BA31786B5C8002EA6E4 /* DiamondDashBestGameEverTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4420BA91786B5C8002EA6E4 /* DiamondDashBestGameEverTests.h */,
+				A4420BAA1786B5C9002EA6E4 /* DiamondDashBestGameEverTests.m */,
+				A4420BA41786B5C8002EA6E4 /* Supporting Files */,
+			);
+			path = DiamondDashBestGameEverTests;
+			sourceTree = "<group>";
+		};
+		A4420BA41786B5C8002EA6E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4420BA51786B5C8002EA6E4 /* DiamondDashBestGameEverTests-Info.plist */,
+				A4420BA61786B5C8002EA6E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4420B751786B5C8002EA6E4 /* DiamondDashBestGameEver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4420BAE1786B5C9002EA6E4 /* Build configuration list for PBXNativeTarget "DiamondDashBestGameEver" */;
+			buildPhases = (
+				A4420B721786B5C8002EA6E4 /* Sources */,
+				A4420B731786B5C8002EA6E4 /* Frameworks */,
+				A4420B741786B5C8002EA6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiamondDashBestGameEver;
+			productName = DiamondDashBestGameEver;
+			productReference = A4420B761786B5C8002EA6E4 /* DiamondDashBestGameEver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4420B9B1786B5C8002EA6E4 /* DiamondDashBestGameEverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4420BB11786B5C9002EA6E4 /* Build configuration list for PBXNativeTarget "DiamondDashBestGameEverTests" */;
+			buildPhases = (
+				A4420B971786B5C8002EA6E4 /* Sources */,
+				A4420B981786B5C8002EA6E4 /* Frameworks */,
+				A4420B991786B5C8002EA6E4 /* Resources */,
+				A4420B9A1786B5C8002EA6E4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4420BA21786B5C8002EA6E4 /* PBXTargetDependency */,
+			);
+			name = DiamondDashBestGameEverTests;
+			productName = DiamondDashBestGameEverTests;
+			productReference = A4420B9C1786B5C8002EA6E4 /* DiamondDashBestGameEverTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4420B6E1786B5C8002EA6E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DiamondDash;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Kamil Czopek";
+			};
+			buildConfigurationList = A4420B711786B5C8002EA6E4 /* Build configuration list for PBXProject "DiamondDashBestGameEver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4420B6D1786B5C8002EA6E4;
+			productRefGroup = A4420B771786B5C8002EA6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4420B751786B5C8002EA6E4 /* DiamondDashBestGameEver */,
+				A4420B9B1786B5C8002EA6E4 /* DiamondDashBestGameEverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4420B741786B5C8002EA6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4420B841786B5C8002EA6E4 /* InfoPlist.strings in Resources */,
+				A4420B8C1786B5C8002EA6E4 /* Default.png in Resources */,
+				A4420B8E1786B5C8002EA6E4 /* Default@2x.png in Resources */,
+				A4420B901786B5C8002EA6E4 /* Default-568h@2x.png in Resources */,
+				A4420B931786B5C8002EA6E4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4420B991786B5C8002EA6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4420BA81786B5C8002EA6E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4420B9A1786B5C8002EA6E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4420B721786B5C8002EA6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4420B861786B5C8002EA6E4 /* main.m in Sources */,
+				A4420B8A1786B5C8002EA6E4 /* DiamondDashAppDelegate.m in Sources */,
+				A4420B961786B5C8002EA6E4 /* DiamondDashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4420B971786B5C8002EA6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4420BAB1786B5C9002EA6E4 /* DiamondDashBestGameEverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4420BA21786B5C8002EA6E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4420B751786B5C8002EA6E4 /* DiamondDashBestGameEver */;
+			targetProxy = A4420BA11786B5C8002EA6E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4420B821786B5C8002EA6E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4420B831786B5C8002EA6E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4420B911786B5C8002EA6E4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4420B921786B5C8002EA6E4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A4420BA61786B5C8002EA6E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4420BA71786B5C8002EA6E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4420BAC1786B5C9002EA6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4420BAD1786B5C9002EA6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4420BAF1786B5C9002EA6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiamondDashBestGameEver/DiamondDashBestGameEver-Prefix.pch";
+				INFOPLIST_FILE = "DiamondDashBestGameEver/DiamondDashBestGameEver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4420BB01786B5C9002EA6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiamondDashBestGameEver/DiamondDashBestGameEver-Prefix.pch";
+				INFOPLIST_FILE = "DiamondDashBestGameEver/DiamondDashBestGameEver-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4420BB21786B5C9002EA6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiamondDashBestGameEver.app/DiamondDashBestGameEver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiamondDashBestGameEver/DiamondDashBestGameEver-Prefix.pch";
+				INFOPLIST_FILE = "DiamondDashBestGameEverTests/DiamondDashBestGameEverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A4420BB31786B5C9002EA6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DiamondDashBestGameEver.app/DiamondDashBestGameEver";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DiamondDashBestGameEver/DiamondDashBestGameEver-Prefix.pch";
+				INFOPLIST_FILE = "DiamondDashBestGameEverTests/DiamondDashBestGameEverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4420B711786B5C8002EA6E4 /* Build configuration list for PBXProject "DiamondDashBestGameEver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4420BAC1786B5C9002EA6E4 /* Debug */,
+				A4420BAD1786B5C9002EA6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4420BAE1786B5C9002EA6E4 /* Build configuration list for PBXNativeTarget "DiamondDashBestGameEver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4420BAF1786B5C9002EA6E4 /* Debug */,
+				A4420BB01786B5C9002EA6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4420BB11786B5C9002EA6E4 /* Build configuration list for PBXNativeTarget "DiamondDashBestGameEverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4420BB21786B5C9002EA6E4 /* Debug */,
+				A4420BB31786B5C9002EA6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4420B6E1786B5C8002EA6E4 /* Project object */;
+}
